@@ -7,7 +7,6 @@ def without_duplicates(values):
     unique_values = []
 
     for value in values:
-        print(value)
         if value not in unique_values:
             unique_values.append(value)
 
